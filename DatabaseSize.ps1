@@ -1,5 +1,5 @@
 #	Title:			DatabaseSize.ps1
-#	Description:		This is a nagios plug-in that will check the database size.
+#	Description:		This is a icinga / nsclient++ plug-in that will check the database size.
 #				
 #	Author:			mahr manuel [manuel (at) it-mahr.com
 #	Date:			2019-10-04
