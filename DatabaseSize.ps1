@@ -1,3 +1,11 @@
+#	Title:			DatabaseSize.ps1
+#	Description:		This is a nagios plug-in that will check the database size.
+#				
+#	Author:			mahr manuel [manuel (at) it-mahr.com
+#	Date:			2019-10-04
+#	Version:		0.1
+#=================================================================================
+
 if ( (Get-PSSnapin -Name Microsoft.Exchange.Management.PowerShell.E2010 -ErrorAction:SilentlyContinue) -eq $null)
 {
     Add-PSSnapin Microsoft.Exchange.Management.PowerShell.E2010
