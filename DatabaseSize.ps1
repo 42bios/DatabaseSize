@@ -42,13 +42,13 @@ $DBsizeMB = $dbs.DatabaseSize.ToMB()
     } #end if
    if ($NagiosStatus -eq "2") 
 {
-	Write-Host ""$NagiosDescription" MB ($DBsizeMB MiB) in use. Max. allowed is: "$maxdbsize" MB | 'DBsizeMiB'=${dbsizeMB}"
+	Write-Output ""$NagiosDescription" MB ($DBsizeMB MiB) in use. Max. allowed is: "$maxdbsize" MB | 'DBsizeMiB'=${dbsizeMB}"
 	
 
 } 
 else 
 {	
-Write-Host "Database: "$dbsizeMB" MiB | 'DBsizeMiB'=${dbsizeMB}"
+Write-Output "Database: "$dbsizeMB" MiB | 'DBsizeMiB'=${dbsizeMB}"
 
 }
 
